@@ -295,7 +295,12 @@
 <td></td>
 	<td>26.ULP PRIMA CIBABAT</td>	
 </tr>	
-<td>27.BC HAR TASIKMALAYA</td>
+<tr>
+<td></td>	
+	<td>27.BC HAR TASIKMALAYA</td>
+<td></td>
+	<td>27.ULP PADALARANG</td>
+</tr>	
 <td>28.BC HAR KARAWANG</td>
 <td>29.BC HAR BOGOR</td>
 <td>30.ULTG CIREBON</td>
