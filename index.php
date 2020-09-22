@@ -301,50 +301,291 @@
 <td></td>
 	<td>27.ULP PADALARANG</td>
 </tr>	
-<td>28.BC HAR KARAWANG</td>
-<td>29.BC HAR BOGOR</td>
-<td>30.ULTG CIREBON</td>
-<td>31.ULTG GARUT</td>
-<td>32.GI CIAMIS</td>
-<td>33.GI CIKEDUNG</td>
-<td>34.GI DARAJAT</td>
-<td>35.GI HAURGEULIS</td>
-<td>36.GI INDRAMAYU</td>
-<td>37.GI JATIBARANG</td>
-<td>38.GI KADIPATEN</td>
-<td>39.GI KAMOJANG</td>
-<td>40.GI KARANGNUNGGAL</td>
-<td>41.GI KUNINGAN</td>
-<td>42.GI MALANGBONG</td>
-<td>43.GI PAMENPEUK</td>
-<td>44.GI PANGANDARAN</td>
-<td>45.GI PARAKAN</td>
-<td>46.GI SUMADRA</td>
-<td>47.GI TASIKMALAYA</td>
-<td>48.GITET TASIKMALAYA</td>
-<td>49.ULTG PURWAKARTA</td>
-<td>50.ULTG KARAWANG</td>
-<td>51.GI CIKARANG</td>
-<td>52.GI CIKUPAY</td>
-<td>53.GI CIRATA</td>
-<td>54.GI DAWUAN</td>
-<td>55.GI FAJAR</td>
-<td>56.GI GANDAMEKAR</td>
-<td>57.GI HANKOOK</td>
-<td>58.GI INDORAMA</td>
-<td>59.GI JABABEKA</td>
-<td>60.GI JUISHIN</td>
-<td>61.GI MEKARSARI</td>
-<td>62.GI PABUARAN</td>
-<td>64.GI PARUNGMULYA</td>
-<td>65.GI PURWAKARTA</td>
-<td>66.GI RENGASDENGKLOK</td>
-<td>67.GI SUBANG</td>
-<td>68.GI SUKAMANDI</td>
-<td>69.GI TAMBUN</td>
-<td>70.GI TEGAL HERANG</td>
-<td>71.GI TELUK JAMBE</td>
-<td>72.GITET MUARA TAWAR</td>
+<tr>
+<td></td>		
+	<td>28.BC HAR KARAWANG</td>
+<td></td>	
+	<td>28.ULP CILILIN</td>
+</tr>
+<tr>
+<td></td>		
+	<td>29.BC HAR BOGOR</td>
+<td></td>	
+	<td>29.ULP BANJARAN</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>30.ULTG CIREBON</td>
+<td></td>	
+	<td>30.ULP RANCAEKEK</td>
+</tr>
+<tr>
+<td></td>		
+	<td>31.ULTG GARUT</td>
+<td></td>	
+	<td>31.ULP PRIMA MAJALAYA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>32.GI CIAMIS</td>
+<td></td>	
+	 <td>32.ULP BALEENDAH</td> 
+</tr>
+<tr>
+<td></td>		
+	<td>33.GI CIKEDUNG</td>
+<td></td>	
+	<td>33.ULP MAHKOTA (CIPARAY)</td>
+</tr>
+<tr>
+<td></td>		
+	<td>34.GI DARAJAT</td>
+<td></td>	
+	<td>34.ULP CIANJUR KOTA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>35.GI HAURGEULIS</td>
+<td></td>
+	<td>35.ULP SUKANEGARA</td>
+</tr>
+<tr>
+<td></td>	
+	<td>36.GI INDRAMAYU</td>
+<td></td>	
+	<td>36.ULP TANGGERANG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>37.GI JATIBARANG</td>
+<td></td>	
+	<td>37.ULP CIPANAS</td>
+</tr>
+<tr>
+<td></td>		
+	<td>38.GI KADIPATEN</td>
+<td></td>	
+	<td>38.ULP MANDE</td>
+</tr>
+<tr>
+<td></td>		
+	<td>39.GI KAMOJANG</td>
+<td></td>	
+	<td>39.ULP CIBADAK</td>	
+</tr>	
+<tr>
+<td></td>		
+	<td>40.GI KARANGNUNGGAL</td>
+<td></td>	
+	<td>40.ULP PELABUHAN RATU</td>
+</tr>
+<tr>
+<td></td>		
+	<td>41.GI KUNINGAN</td>
+<td></td>	
+	<td>41.ULP CIKEMBAR</td>
+</tr>
+<tr>
+<td></td>		
+	<td>42.GI MALANGBONG</td>
+<td></td>	
+	<td>42.ULP SUKARAJA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>43.GI PAMENPEUK</td>
+<td></td>	
+	<td>43.ULP SUKABUMI KOTA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>44.GI PANGANDARAN</td>
+<td></td>
+	<td>44.ULP CICURUG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>45.GI PARAKAN</td>
+<td></td>	
+	<td>45.ULTG BANDUNG UTARA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>46.GI SUMADRA</td>
+<td></td>	
+	<td>46.ULTG BANDUNG SELATAN</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>47.GI TASIKMALAYA</td>
+<td></td>	
+	<td>47.ULTG BANDUNG TIMUR</td>
+</tr>
+<tr>
+<td></td>		
+	<td>48.GITET TASIKMALAYA</td>
+<td></td>	
+	<td>48.GIS SAGULING</td>
+</tr>
+<tr>
+<td></td>		
+	<td>49.ULTG PURWAKARTA</td>
+<td></td>	
+	<td>49.GIS CIBABAT BARU</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>50.ULTG KARAWANG</td>
+<td></td>	
+	<td>50.GIS GEDEBAGE</td>
+</tr>
+<tr>
+<td></td>		
+	<td>51.GI CIKARANG</td>
+<td></td>	
+	<td>51.GITET BANDUNG SELATAN</td>
+</tr>
+<tr>
+<td></td>		
+	<td>52.GI CIKUPAY</td>
+<td></td>	
+	<td>52.GITET UJUNG BERUNG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>53.GI CIRATA</td>
+<td></td>	
+	<td>53.GI BANDUNG SELATAN</td>
+</tr>
+<tr>
+<td></td>	
+	<td>54.GI DAWUAN</td>
+<td></td>	
+	<td>54.GI BANDUNG UTARA</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>55.GI FAJAR</td>
+<td></td>	
+	<td>55.GI BRAGA</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>56.GI GANDAMEKAR</td>
+<td></td>	
+	<td>56.GI CIBABAT</td>
+</tr>	
+<tr>
+<td></td>		
+	<td>57.GI HANKOOK</td>
+<td></td>	
+	<td>57.GI CIBABAT BARU</td>
+</tr>
+<tr>
+<td></td>		
+	<td>58.GI INDORAMA</td>
+<td></td>	
+	<td>58.GI CIBEREUM</td>
+</tr>
+<tr>
+<td></td>	
+	<td>59.GI JABABEKA</td>
+<td></td>	
+	<td>59.GI CIGERELENG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>60.GI JUISHIN</td>
+<td></td>	
+	<td>60.GI CIKALONG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>61.GI MEKARSARI</td>
+</tr>
+<tr>
+<td></td>		
+	<td>62.GI PABUARAN</td>
+<td></td>	
+	<td>62.GI CIANJUR</td>
+</tr>
+<tr>
+<td></td>		
+	<td>64.GI PARUNGMULYA</td>
+<td></td>	
+	<td>64.GI KIARACONDONG</td>
+</tr>
+<tr>
+<td></td>		
+	<td>65.GI PURWAKARTA</td>
+<td></td>	
+	<td>65.GI LAGADAR</td>
+</tr>
+<tr>	
+<td></td>		
+	<td>66.GI RENGASDENGKLOK</td>
+<td></td>	
+	<td>66.GI LAMAJANG</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>67.GI SUBANG</td>
+<td></td>	
+	<td>67.GI MAJALAYA</td>	
+</tr>
+<tr>
+<td></td>		
+	<td>68.GI SUKAMANDI</td>
+<td></td>	
+	<td>68.GI PADALARANG</td>
+</tr>
+<tr>	
+<td></td>		
+	<td>69.GI TAMBUN</td>
+<td></td>	
+	<td>69.GI PANASIA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>70.GI TEGAL HERANG</td>
+<td></td>	
+	<td>70.GI PATUHA</td>
+</tr>
+<tr>
+<td></td>		
+	<td>71.GI TELUK JAMBE</td>
+<td></td>	
+	<td>71.GI RANCAEKEK</td>
+</tr>
+<tr>
+<td></td>		
+	<td>72.GITET MUARA TAWAR</td>
+<td></td>	
+	<td>72.GI RANCAKASUMBA</td>	
+</tr>
+<tr>
+<td></td>	
+	<td></td>
+<td></td>		
+	<td>73.GI SANTOSA</td>
+</tr>
+<tr>
+<td></td>
+	<td></td>	
+<td></td>		
+	<td>74.GI SUMEDANG</td>		
+</tr>
+<tr>
+<td></td>	
+	<td></td>	
+<td></td>	
+	<td>75.GI UJUNG BERUNG</td>
+</tr>
+<tr>
+<td></td>
+	<td></td>	
+<td></td>	
+	<td>GI WAYANGWINDU</td>
 </tr>
 
 
