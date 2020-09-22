@@ -585,7 +585,7 @@
 <td></td>
 	<td></td>	
 <td></td>	
-	<td>GI WAYANGWINDU</td>
+	<td>76.GI WAYANGWINDU</td>
 </tr>
 
 
