@@ -502,6 +502,8 @@
 <tr>
 <td></td>		
 	<td>61.GI MEKARSARI</td>
+<td></td>
+	<td>61.GI CIKASUNGKA</td>
 </tr>
 <tr>
 <td></td>		
