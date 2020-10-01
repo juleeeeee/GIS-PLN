@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--menandakan html 5-->
+<html>
+<head>
+    <title>Praktikum 2</title>
+    <meta charset="utf-8"> <!--parsing code-->
+    <meta name="viewport" content="initial-scale=1.0"> <!--menandakan responsif web mobile-->
+
+    <style>
+        #map {/* modifikasi element html yang ber-idkan map*/
+            height: 100%;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body> <!--isi dari web-->
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box"/>
+    <div id="map"></div>
+    <script>
+        var map;
+        function initMap() {
+            //buat data koordinat marker
+            //format ["nama tempat", Garis_Lintang, Garis_Bujur]
+            var locations = [
+                ['<a href="#">UID JABAR</a>', -6.9210317, 107.6059983, ''],
+                ['<a href="#">UIP JBT 1</a>', -6.9382358, 107.625752, ''],
+                ['<a href="#">UPP KIT JBT 2 (JATIGEDE)</a>', -6.7661387, 108.1737793, '']
+            ];
+
+            map = new google.maps.Map(document.getElementById('map'),
+                {
+                    center: {lat:-6.8727539, lng:107.8247303},
+                    zoom:10
+                }
+            );
+            var marker; //inisiasi marker
+            var infowindow = new google.maps.InfoWindow();
+            //lakukan perulangan untuk mendapat data koordinat
+            for (var i = 0; i <locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng
+                    (locations[i][1],locations[i][2]),
+                        map : map
+                });
+                google.maps.event.addListener(marker,'click',
+                    (function(marker, i){
+                        return function(){
+                            infowindow.setContent(""+locations[i][0]+"<br>"+locations[i][4]);
+                            infowindow.open(map, marker);
+                        }
+                    }) (marker, i));
+            }
+        }
+    </script>
+    <!-- Isi [YOUR_API_KEY] dengan kode kredensial / kunci api -->
+    <script src="https://maps.googleapis.com/maps/api/js?=AIzaSyCKRPPVKEReyv6tbeXblgDiB2xqw_yO3Sk&callback&callback=initMap" async defer></script>
+</body>
+</html>
