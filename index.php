@@ -447,7 +447,7 @@
 					</tr>
 					<tr>
 						<td></td>		
-						<td>52. GI CIKUPAY</td>
+						<td>52. GI CIKUMPAY</td>
 						<td></td>	
 						<td>52. GITET UJUNG BERUNG</td>
 					</tr>
