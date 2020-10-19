@@ -7,11 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
 </head>
-<body style="background: #00325C;">
+<body style="background-image: url('assets/img/bg.png');">
 
     <div class="container">
         <form action="#" method="POST">
-            <div class="col-md-10 col-md-offset-5">
+            <div class="col-md-12">
                 <h1 class="judul">Monitoring Wilayah Kerja STI JABAR</h1>
                 <hr class="judul">
 
@@ -171,9 +171,9 @@
 					</tr>
 					<tr>
 						<td></td>	
-						<td>6.ULP INDRAMAYU KOTA</td>
+						<td>6. ULP INDRAMAYU KOTA</td>
 						<td></td>
-						<td>6.ULP BANDUNG TIMUR</td>
+						<td>6. ULP BANDUNG TIMUR</td>
 					</tr>
 					<tr>
 						<td></td>		
@@ -189,21 +189,21 @@
 					</tr>
 					<tr>
 						<td></td>		
-						<td>9.ULP CIKEDUNG</td>
+						<td>9. ULP CIKEDUNG</td>
 						<td></td>
-						<td>9.ULP TASIK KOTA</td>
+						<td>9. ULP TASIK KOTA</td>
 					</tr>
 					<tr>
 						<td></td>		
 						<td>10. ULP SUMEDANG KOTA</td>
 						<td></td>
-						<td>10. ULP RAJAPELAH</td>
+						<td>10. ULP RAJAPOLAH</td>
 					</tr>
 					<tr>
 						<td></td>		
-						<td>11.ULP MAJALENGKA</td>
+						<td>11. ULP MAJALENGKA</td>
 						<td></td>
-						<td>11.ULP BANJAR</td>
+						<td>11. ULP BANJAR</td>
 					</tr>
 					<tr>
 						<td></td>	
@@ -447,7 +447,7 @@
 					</tr>
 					<tr>
 						<td></td>		
-						<td>52. GI CIKUMPAY</td>
+						<td>52. GI CIKUPAY</td>
 						<td></td>	
 						<td>52. GITET UJUNG BERUNG</td>
 					</tr>
@@ -590,6 +590,7 @@
 						<td>76. GI WAYANGWINDU</td>
 					</tr>
                 </table>
+				<a class="btn btn-primary" href="maps.php" role="button">Open Maps</a>
 
             </div>
         </form>

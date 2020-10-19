@@ -1,16 +1,16 @@
 body {
-    position: absolute;
-    background-image: url('../img/bg.png');
     font-family: Verdana;
     color: #FFFFFF;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 400px) {
   body {
-    position: absolute;
-    background-image: url('../img/bg.png');
     font-family: Verdana;
     color: #FFFFFF;
+    padding-bottom: 50px;
+    text-align: center;
   }
 }
 
@@ -42,10 +42,10 @@ table {
 }
 
 table.head {
-    margin-top: 50px;
     color: #FFFFFF;
     width: 750px;
     height: 75px;
+    margin-top: 50px;
 }
 
 table.head th {
@@ -57,9 +57,47 @@ table.body {
     color: #FFFFFF;
     width: 750px;
     height: 75px;
+    margin-bottom: 50px;
 }
 
 table.body td {
     text-align: left;
     font-size: 15px;
+}
+
+a.btn-primary {
+    color: #fff;
+    background-color: #59550A;
+    border-color: #fff;
+    font-size: 12pt;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+}
+
+a.btn-primary:hover {
+    color: #59550A;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+a.btn-primary:focus, .btn-primary.focus {
+    color: #59550A;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+a.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #59550A;
+    border-color: #59550A;
+}
+
+a.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #59550A;
+    border-color: #fff;
 }
