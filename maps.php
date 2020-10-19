@@ -24,7 +24,7 @@
     <script>
         var map;
         function initMap() {
-            // ["nama tempat", Garis_Lintang, Garis_Bujur]
+            //  ["nama tempat", Garis_Lintang, Garis_Bujur]
             var locations = [
                 ['<a href="#">UID JABAR</a>', -6.9210317, 107.6059983, ''],
                 ['<a href="#">UIP JBT 1</a>', -6.9382358, 107.625752, ''],
