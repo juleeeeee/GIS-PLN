@@ -1,80 +1,70 @@
+/* Custom styles for elegant UI */
+
 body {
-    background-image: url('../assets/img/bg.png');
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
 }
-.container {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 800px;
-    width: 100%;
-}
+
 .judul {
-    font-size: 2em;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #212529;
     text-align: center;
+    margin-bottom: 0.5rem;
 }
+
 hr.judul {
-    border-top: 2px solid #fff;
+    border-top: 3px solid #007bff;
+    width: 60px;
+    margin: 0 auto 1.5rem auto;
 }
-.head {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+
+.table {
+    font-size: 1rem;
 }
-.head div {
-    text-align: center;
-    font-size: 1.2em;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 0 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    transition: background 0.3s;
+
+.table td {
+    vertical-align: middle;
 }
-.head div:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-hr.tabel {
-    border-top: 1px solid #fff;
-    width: 80%;
-    margin: 10px auto;
-}
-.body td {
-    padding: 10px;
-    text-align: left;
-}
-.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
 .btn-primary {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-    border-radius: 4px;
+    font-weight: 600;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease;
 }
+
 .btn-primary:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
-.hidden {
-    display: none;
+
+.nav-tabs .nav-link {
+    font-weight: 600;
+    color: #495057;
+    transition: color 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+    color: #007bff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0056b3;
+}
+
+.map-header h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #212529;
+}
+
+.btn-back {
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+    color: white;
 }
